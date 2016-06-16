@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.omer.hw4.FrontPageFragment"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Homework 4. Please select where you would like to go."
+        android:id="@+id/textView"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Me"
+        android:layout_below="@id/textView"
+        android:id="@+id/aboutButton"
+        android:gravity="center"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Task 1"
+        android:id="@+id/task1Button"
+        android:layout_below="@id/textView"
+        android:layout_toRightOf="@id/aboutButton"
+        android:gravity="center"/>
+
+    </LinearLayout>
+</LinearLayout>
